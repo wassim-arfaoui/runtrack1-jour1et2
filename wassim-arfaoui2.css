@@ -1,0 +1,29 @@
+/* wassim-arfaoui2.css */
+/* Titres des sections */
+p strong {
+    display: block;
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #007acc;
+    text-transform: uppercase;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+}
+
+/* Listes simples */
+ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Chaque élément de liste */
+li {
+    margin-bottom: 5px;
+}
+
+/* Paragraphes sous les expériences */
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

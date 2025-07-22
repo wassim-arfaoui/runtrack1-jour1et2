@@ -1,0 +1,15 @@
+body {
+  font-family: 'Century Gothic'; 
+  margin: 40px;
+  background: rgb(222, 222, 105);
+  background-size: cover;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Cooper Black';
+  font-weight: bold;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }

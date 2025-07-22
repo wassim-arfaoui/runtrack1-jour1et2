@@ -1,0 +1,31 @@
+/* wassim-arfaouicv1.css */
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Nom en haut */
+body > p:first-of-type strong {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+/* Coordonnées (texte en dessous du nom) */
+body > p:first-of-type + br {
+    margin-top: 5px;
+}
+
+/* Responsive pour petits écrans */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+        padding: 15px;
+    }
+}
